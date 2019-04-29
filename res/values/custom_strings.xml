@@ -140,4 +140,8 @@ Notifications may be delayed for these apps."</string>
     <string name="refresh_rate_auto">Automatic</string>
     <string name="refresh_rate_60">60Hz (saves battery)</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
 </resources>
