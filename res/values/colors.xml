@@ -151,4 +151,7 @@
 
     <!-- Config Center -->
     <color name="homepage_config_center_background">#4e66ed</color>
+
+    <color name="settings_panel_background_color">@android:color/white</color>
+
 </resources>
