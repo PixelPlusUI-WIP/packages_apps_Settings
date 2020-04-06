@@ -27,7 +27,6 @@
         android:id="@+id/search_action_bar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginStart="-2dp"
         android:background="@drawable/search_bar_selected_background"
         android:contentInsetStartWithNavigation="64dp"
         android:navigationIcon="@drawable/ic_homepage_search">
