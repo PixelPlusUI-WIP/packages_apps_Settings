@@ -141,4 +141,9 @@ Notifications may be delayed for these apps."</string>
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
+    <string name="apps_category">Apps</string>
+    <string name="volume_key_category_title">Volume Shortcut</string>
+    <string name="connected_devices_category_title">Connected Devices</string>
+
 </resources>
