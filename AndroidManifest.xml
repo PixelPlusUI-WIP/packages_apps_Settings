@@ -3312,7 +3312,7 @@
         <!-- Config Center -->
         <activity android:name="Settings$ConfigCenterActivity"
             android:label="@string/config_center_title"
-            android:icon="@drawable/ic_homepage_config_center_ppui"
+            android:icon="@drawable/ic_homepage_config_center"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.ppui.config.center.ConfigCenter" />
