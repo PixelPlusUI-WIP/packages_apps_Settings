@@ -22,7 +22,6 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../ConfigCenter/src)
-LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/SettingsGoogle/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -59,8 +58,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/TouchGestures/res \
-    packages/apps/ConfigCenter/res \
-    external/google/SettingsGoogle/res
+    packages/apps/ConfigCenter/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 

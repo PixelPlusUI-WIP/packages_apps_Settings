@@ -13,8 +13,6 @@
     *;
 }
 
--keep class com.google.**
-
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }
