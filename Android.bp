@@ -27,14 +27,7 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", 
-        "ConfigCenter/src/**/*.java"],
-
-    aaptflags: ["--extra-packages com.ppui.config.center"],
-
-    resource_dirs: ["res",
-                    "ConfigCenter/res"
-    ],
+    srcs: ["src/**/*.java"],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -70,10 +63,6 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
-
-    optimize: {
-        proguard_flags_files: ["proguard-core.flags"],
-    },
 }
 
 platform_compat_config {
